@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Run Tracker</string>
     <string name="profile_username">Gonzalo R.</string>
-    <string name="profile_join_date">Te uniste en 2026</string>
+    <string name="profile_join_date">Te uniste en %1$d</string>
     <string name="profile_edit">Editar perfil</string>
     <string name="objectives_title">Objetivos</string>
     <string name="objectives_see_all">Ver todo</string>
@@ -27,4 +27,5 @@
     <string name="stats_value_km">0 km</string>
     <string name="stats_value_runs">0</string>
     <string name="stats_value_time">--:--</string>
+
 </resources>

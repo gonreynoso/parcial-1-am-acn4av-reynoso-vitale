@@ -2,6 +2,7 @@ package com.example.runtracker;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import java.util.Calendar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,8 +28,9 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     private void loadProfile() {
+        int year = Calendar.getInstance().get(Calendar.YEAR);
         tvUsername.setText(getString(R.string.profile_username));
-        tvJoinDate.setText(getString(R.string.profile_join_date));
+        tvJoinDate.setText(getString(R.string.profile_join_date, year));
         tvTotalKm.setText(getString(R.string.stats_value_km));
         tvTotalRuns.setText(getString(R.string.stats_value_runs));
         tvBestTime.setText(getString(R.string.stats_value_time));
