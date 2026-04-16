@@ -20,4 +20,11 @@
     <string name="achievement_streak_desc">Corré 7 días seguidos</string>
     <string name="achievement_10k">10K</string>
     <string name="achievement_10k_desc">Corré 10 km sin parar</string>
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_total_km">Km totales</string>
+    <string name="stats_total_runs">Carreras</string>
+    <string name="stats_best_time">Mejor tiempo</string>
+    <string name="stats_value_km">0 km</string>
+    <string name="stats_value_runs">0</string>
+    <string name="stats_value_time">--:--</string>
 </resources>
